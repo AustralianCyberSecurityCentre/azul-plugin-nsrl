@@ -1,0 +1,36 @@
+[
+    {
+        "sha256": "C5E167C0D08F05B44180E12194BA6471B195FB039CCBF4E0FE981BDEE97F080D",
+        "sha1": "3E3A5661D89A661F804CD993ACA98170124007AF",
+        "md5": "A9C1143BAD46E0F05AFCC627B7CA28B9",
+        "file_name": "activeX1.xml.rels",
+        "file_size": 287,
+        "package": {
+            "name": "Sage 50 Accounting U.S. Edition",
+            "version": "2015",
+            "operating_system": null,
+            "manufacturer": {
+                "name": "Sage Software"
+            },
+            "language": "English",
+            "application_type": "Accounting"
+        }
+    },
+    {
+        "sha256": "C5E167C0D08F05B44180E12194BA6471B195FB039CCBF4E0FE981BDEE97F080D",
+        "sha1": "3E3A5661D89A661F804CD993ACA98170124007AF",
+        "md5": "A9C1143BAD46E0F05AFCC627B7CA28B9",
+        "file_name": "activeX2.xml.rels",
+        "file_size": 287,
+        "package": {
+            "name": "SQL Server 2012 Standard Edition with Service Pack 2",
+            "version": "2014",
+            "operating_system": null,
+            "manufacturer": {
+                "name": "Microsoft"
+            },
+            "language": "English",
+            "application_type": "Database Management System"
+        }
+    }
+]
