@@ -21,7 +21,7 @@ resources:
       trigger: none
   pipelines:
     - pipeline: nsrl_lookup_server
-      source: ag-github-dev\ag-azul-nsrl-lookup-server-github-dev
+      source: ag-github-dev\ag-azul-nsrl-lookup-server-release-dev
       project: Azul
       trigger: true
 
