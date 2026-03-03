@@ -4,6 +4,7 @@ from dataclasses import dataclass
 
 import httpx
 from azul_bedrock import models_network as azm
+from azul_nsrl_lookup_server.schema import FileDetails
 from azul_runner import (
     FV,
     Feature,
@@ -14,7 +15,6 @@ from azul_runner import (
     add_settings,
     cmdline_run,
 )
-from nsrl_lookup_server.schema import FileDetails
 
 
 @dataclass
