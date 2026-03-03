@@ -64,7 +64,7 @@ class TestExecute(test_template.TestPlugin):
         os.environ["NSRL_SERVER_HOST"] = cls.host
         os.environ["NSRL_SERVER_PORT"] = str(cls.port)
         # delay import until after env is set, so correct config is applied
-        from nsrl_lookup_server import cli
+        from azul_nsrl_lookup_server import cli
 
         cls.server = Process(
             target=cli.server,
