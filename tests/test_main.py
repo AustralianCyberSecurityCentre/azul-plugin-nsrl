@@ -18,7 +18,7 @@ class TestExecute(test_template.TestPlugin):
     def setUpClass(cls) -> None:
         """Construct a test database."""
         super().setUpClass()
-        cls.db_file = tempfile.NamedTemporaryFile(prefix="dontletrunnerdelete").name
+        cls.db_file = tempfile.NamedTemporaryFile(prefix="dontletrunnerdelete", suffix="nsrl_sqlite.db").name
 
         db = sqlite3.connect(cls.db_file)
         script = os.path.join(os.path.dirname(__file__), "data", "rdsv3_minimal.schema.sql")

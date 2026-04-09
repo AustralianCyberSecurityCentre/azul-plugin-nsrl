@@ -25,7 +25,7 @@ classifiers=[
 ]
 dependencies = [
     "azul-bedrock>=11.0.26",
-    "azul-nsrl-lookup-server>=10.0.18",
+    "azul-nsrl-lookup-server>=11.0.0",
     "azul-runner>=9.0.38",
     "httpx>=0.28.1",
 ]
@@ -40,7 +40,7 @@ Repository = "https://github.com/AustralianCyberSecurityCentre/azul-plugin-nsrl"
 [tool.uv]
 package = true
 exclude-newer = "1 week"
-exclude-newer-package = { azul-bedrock = false, azul-runner = false, azul-security=false, azul-metastore = false, azul-nsrl-lookup-serve=false, azul-nsrl-lookup-server=false, azul-plugin-retrohunt = false }
+exclude-newer-package = { azul-bedrock = false, azul-runner = false, azul-security=false, azul-metastore = false, azul-nsrl-lookup-server=false, azul-plugin-retrohunt = false }
 
 [tool.uv.sources]
 azul-bedrock = { index="cache"}
