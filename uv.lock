@@ -8,7 +8,7 @@ resolution-markers = [
 ]
 
 [options]
-exclude-newer = "2026-04-02T03:59:23.138213584Z"
+exclude-newer = "2026-04-02T04:26:03.892165874Z"
 exclude-newer-span = "P1W"
 
 [options.exclude-newer-package]
@@ -85,7 +85,7 @@ test-utils = [
 
 [[package]]
 name = "azul-nsrl-lookup-server"
-version = "11.0.12"
+version = "11.0.14"
 source = { registry = "https://devpi.acsc.internal/azul/stable/" }
 dependencies = [
     { name = "fastapi" },
@@ -99,7 +99,7 @@ dependencies = [
     { name = "uvicorn" },
 ]
 wheels = [
-    { url = "https://devpi.acsc.internal/azul/stable/+f/b31/8847484df8bc8/azul_nsrl_lookup_server-11.0.12-py3-none-any.whl", hash = "sha256:b318847484df8bc8c4dfe6f2475e93df8787789e955a2a2f0b93774ed4803361" },
+    { url = "https://devpi.acsc.internal/azul/stable/+f/ca2/ac792ceab0580/azul_nsrl_lookup_server-11.0.14-py3-none-any.whl", hash = "sha256:ca2ac792ceab0580ddff3e17ae825e3396a975bc37ecf3fe03a3ba4a860012d8" },
 ]
 
 [[package]]
