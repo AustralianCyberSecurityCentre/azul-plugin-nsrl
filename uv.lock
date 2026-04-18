@@ -8,7 +8,7 @@ resolution-markers = [
 ]
 
 [options]
-exclude-newer = "2026-04-11T14:50:16.627577696Z"
+exclude-newer = "2026-04-11T15:37:22.386126365Z"
 exclude-newer-span = "P1W"
 
 [options.exclude-newer-package]
@@ -52,7 +52,7 @@ wheels = [
 
 [[package]]
 name = "azul-bedrock"
-version = "11.0.45"
+version = "11.0.47"
 source = { registry = "https://devpi.acsc.internal/azul/stable/" }
 dependencies = [
     { name = "babel" },
@@ -70,7 +70,7 @@ dependencies = [
     { name = "yara-python" },
 ]
 wheels = [
-    { url = "https://devpi.acsc.internal/azul/stable/+f/fa0/92eceeb0d624e/azul_bedrock-11.0.45-py3-none-any.whl", hash = "sha256:fa092eceeb0d624e1a21623f2b7d6894222e3f1faf2e56cff27367ab3a38d152" },
+    { url = "https://devpi.acsc.internal/azul/stable/+f/eea/d7022447116e4/azul_bedrock-11.0.47-py3-none-any.whl", hash = "sha256:eead7022447116e470c19c19cbfb23d1b55ed6ecbd02af5f0c4c2880487c48f3" },
 ]
 
 [package.optional-dependencies]
@@ -85,7 +85,7 @@ test-utils = [
 
 [[package]]
 name = "azul-nsrl-lookup-server"
-version = "11.0.27"
+version = "11.0.29"
 source = { registry = "https://devpi.acsc.internal/azul/stable/" }
 dependencies = [
     { name = "fastapi" },
@@ -99,7 +99,7 @@ dependencies = [
     { name = "uvicorn" },
 ]
 wheels = [
-    { url = "https://devpi.acsc.internal/azul/stable/+f/c6f/23d077025f5f8/azul_nsrl_lookup_server-11.0.27-py3-none-any.whl", hash = "sha256:c6f23d077025f5f8591107ea68ab9b1109ccadd6a85ad1abedf5c5a6d118ad7a" },
+    { url = "https://devpi.acsc.internal/azul/stable/+f/259/6d72552378866/azul_nsrl_lookup_server-11.0.29-py3-none-any.whl", hash = "sha256:2596d725523788665098f30c0aa9844b91a75c596d41179ea94701468787393a" },
 ]
 
 [[package]]
