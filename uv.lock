@@ -52,7 +52,7 @@ wheels = [
 
 [[package]]
 name = "azul-bedrock"
-version = "12.0.35"
+version = "12.0.38"
 source = { registry = "https://devpi.acsc.internal/azul/stable/" }
 dependencies = [
     { name = "babel" },
@@ -70,7 +70,7 @@ dependencies = [
     { name = "yara-x" },
 ]
 wheels = [
-    { url = "https://devpi.acsc.internal/azul/stable/+f/e8d/c67583c625353/azul_bedrock-12.0.35-py3-none-any.whl", hash = "sha256:e8dc67583c6253539cf6eeecec2edc00b5a280750dab2811043908192b0948f4" },
+    { url = "https://devpi.acsc.internal/azul/stable/+f/659/d47bfaa4e94d1/azul_bedrock-12.0.38-py3-none-any.whl", hash = "sha256:659d47bfaa4e94d12792d7677420bf5d14788a6f9feae8d6182fe311d74e0ad6" },
 ]
 
 [package.optional-dependencies]
@@ -85,7 +85,7 @@ test-utils = [
 
 [[package]]
 name = "azul-nsrl-lookup-server"
-version = "12.0.11"
+version = "12.0.13"
 source = { registry = "https://devpi.acsc.internal/azul/stable/" }
 dependencies = [
     { name = "fastapi" },
@@ -99,7 +99,7 @@ dependencies = [
     { name = "uvicorn" },
 ]
 wheels = [
-    { url = "https://devpi.acsc.internal/azul/stable/+f/b49/25546edfded2a/azul_nsrl_lookup_server-12.0.11-py3-none-any.whl", hash = "sha256:b4925546edfded2a17e168a3c736704d9d055b1bbe9cadb5dc1f97ac0b9e5fef" },
+    { url = "https://devpi.acsc.internal/azul/stable/+f/2ba/4060add1ed36b/azul_nsrl_lookup_server-12.0.13-py3-none-any.whl", hash = "sha256:2ba4060add1ed36b06d7625407b51b29b5348f918844ab05b75be878f9447a0e" },
 ]
 
 [[package]]
@@ -144,7 +144,7 @@ dev = [
 
 [[package]]
 name = "azul-runner"
-version = "12.0.42"
+version = "12.0.45"
 source = { registry = "https://devpi.acsc.internal/azul/stable/" }
 dependencies = [
     { name = "azul-bedrock" },
@@ -157,7 +157,7 @@ dependencies = [
     { name = "watchdog" },
 ]
 wheels = [
-    { url = "https://devpi.acsc.internal/azul/stable/+f/2c4/a803f5431f97f/azul_runner-12.0.42-py3-none-any.whl", hash = "sha256:2c4a803f5431f97fd831546ea1acb7232a568aa54367d09723906f257eb77be9" },
+    { url = "https://devpi.acsc.internal/azul/stable/+f/2a2/98d3c1551d654/azul_runner-12.0.45-py3-none-any.whl", hash = "sha256:2a298d3c1551d654b5ed6cdd848039de9635e1b7db5118f51371743610b5c1a2" },
 ]
 
 [package.optional-dependencies]
