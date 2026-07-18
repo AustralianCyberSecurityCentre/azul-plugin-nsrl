@@ -85,7 +85,7 @@ test-utils = [
 
 [[package]]
 name = "azul-nsrl-lookup-server"
-version = "12.0.14"
+version = "12.0.16"
 source = { registry = "https://devpi.acsc.internal/azul/stable/" }
 dependencies = [
     { name = "fastapi" },
@@ -99,7 +99,7 @@ dependencies = [
     { name = "uvicorn" },
 ]
 wheels = [
-    { url = "https://devpi.acsc.internal/azul/stable/+f/6d5/692f4a0095e84/azul_nsrl_lookup_server-12.0.14-py3-none-any.whl", hash = "sha256:6d5692f4a0095e8474fcf6dc7257c6cdad0a1433f69fba0aca6c7c63847dceec" },
+    { url = "https://devpi.acsc.internal/azul/stable/+f/01e/ed484a3566e70/azul_nsrl_lookup_server-12.0.16-py3-none-any.whl", hash = "sha256:01eed484a3566e701903515e21039e5887d7aaaca86cf172e8ab7f4ca4e96cd7" },
 ]
 
 [[package]]
@@ -144,7 +144,7 @@ dev = [
 
 [[package]]
 name = "azul-runner"
-version = "12.0.46"
+version = "12.0.48"
 source = { registry = "https://devpi.acsc.internal/azul/stable/" }
 dependencies = [
     { name = "azul-bedrock" },
@@ -157,7 +157,7 @@ dependencies = [
     { name = "watchdog" },
 ]
 wheels = [
-    { url = "https://devpi.acsc.internal/azul/stable/+f/367/93bb51f299bac/azul_runner-12.0.46-py3-none-any.whl", hash = "sha256:36793bb51f299bacf54fe924841e81318014ef08b8579a61a805dfca69ce1a13" },
+    { url = "https://devpi.acsc.internal/azul/stable/+f/41c/53a986f14559f/azul_runner-12.0.48-py3-none-any.whl", hash = "sha256:41c53a986f14559fc51e92166fdb367f6a51050f0684cb9474ff2114620cd52c" },
 ]
 
 [package.optional-dependencies]
