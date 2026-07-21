@@ -101,8 +101,7 @@ class TestExecute(test_template.TestPlugin):
                 state=State(State.Label.COMPLETED),
                 events=[
                     Event(
-                        entity_type="binary",
-                        entity_id=self.valid_sha256,
+                        sha256=self.valid_sha256,
                         features={
                             "tag": [FV("NSRL")],
                         },
@@ -142,8 +141,7 @@ class TestExecute(test_template.TestPlugin):
                 state=State(State.Label.COMPLETED),
                 events=[
                     Event(
-                        entity_type="binary",
-                        entity_id="E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                        sha256="E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
                         features={
                             "application": [
                                 FV("Microsoft Word", label="Operating System"),
@@ -191,8 +189,7 @@ class TestExecute(test_template.TestPlugin):
                 state=State(State.Label.COMPLETED),
                 events=[
                     Event(
-                        entity_type="binary",
-                        entity_id="50B2C6C05BBDEF754ABA71FFB1A88A03A48D63CA7426049435A568093825E541",
+                        sha256="50B2C6C05BBDEF754ABA71FFB1A88A03A48D63CA7426049435A568093825E541",
                         features={
                             "application": [FV("PKG1", label="Operating System")],
                             "application_versions": [FV("PKG1", label="2007")],
@@ -221,8 +218,7 @@ class TestExecute(test_template.TestPlugin):
                 state=State(State.Label.COMPLETED),
                 events=[
                     Event(
-                        entity_type="binary",
-                        entity_id="50B2C6C05BBDEF754ABA71FFB1A88A03A48D63CA7426049435A568093825E542",
+                        sha256="50B2C6C05BBDEF754ABA71FFB1A88A03A48D63CA7426049435A568093825E542",
                         features={
                             "application": [FV("PKG1", label="Operating System")],
                             "application_versions": [FV("PKG1", label="2007")],
@@ -251,8 +247,7 @@ class TestExecute(test_template.TestPlugin):
                 state=State(State.Label.COMPLETED),
                 events=[
                     Event(
-                        entity_type="binary",
-                        entity_id="50B2C6C05BBDEF754ABA71FFB1A88A03A48D63CA7426049435A568093825E543",
+                        sha256="50B2C6C05BBDEF754ABA71FFB1A88A03A48D63CA7426049435A568093825E543",
                         features={
                             "application": [FV("PKG1", label="Operating System")],
                             "application_versions": [FV("PKG1", label="2007")],

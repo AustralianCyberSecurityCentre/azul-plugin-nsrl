@@ -35,8 +35,7 @@ class TestExecute(test_template.TestPlugin):
                     state=State(State.Label.COMPLETED),
                     events=[
                         Event(
-                            entity_type="binary",
-                            entity_id="C5E167C0D08F05B44180E12194BA6471B195FB039CCBF4E0FE981BDEE97F080D",
+                            sha256="C5E167C0D08F05B44180E12194BA6471B195FB039CCBF4E0FE981BDEE97F080D",
                             features={
                                 "application": [
                                     FV(
@@ -77,8 +76,7 @@ class TestExecute(test_template.TestPlugin):
                     state=State(State.Label.COMPLETED),
                     events=[
                         Event(
-                            entity_type="binary",
-                            entity_id="368F9CB089D206A8B61251F0C85EEDA97EE08A56B33BE8579246E964D3AF6169",
+                            sha256="368F9CB089D206A8B61251F0C85EEDA97EE08A56B33BE8579246E964D3AF6169",
                             features={
                                 "application": [
                                     FV("Aomei Partition Assistant", label="Partition"),
@@ -135,8 +133,7 @@ class TestExecute(test_template.TestPlugin):
                     state=State(State.Label.COMPLETED),
                     events=[
                         Event(
-                            entity_type="binary",
-                            entity_id="368F9CB089D206A8B61251F0C85EEDA97EE08A56B33BE8579246E964D3AF6169",
+                            sha256="368F9CB089D206A8B61251F0C85EEDA97EE08A56B33BE8579246E964D3AF6169",
                             features={
                                 "application": [
                                     FV("Epson WorkForce DS-780N", label="Scanner related"),
