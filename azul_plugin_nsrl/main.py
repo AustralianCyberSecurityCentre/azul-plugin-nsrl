@@ -21,9 +21,9 @@ from azul_runner import (
 class MinimalPackageDetails:
     """A minimal copy of package details data for temporary storage before being made into featureValues."""
 
-    name: str = ""
-    versions: set[str] = set()
-    app_type: str = ""
+    name: str
+    versions: set[str]
+    app_type: str
 
 
 class AzulPluginNsrl(Plugin):
