@@ -94,7 +94,7 @@ test-utils = [
 
 [[package]]
 name = "azul-nsrl-lookup-server"
-version = "13.0.29"
+version = "13.0.31"
 source = { registry = "https://devpi.acsc.internal/azul/stable/" }
 dependencies = [
     { name = "fastapi" },
@@ -108,7 +108,7 @@ dependencies = [
     { name = "uvicorn" },
 ]
 wheels = [
-    { url = "https://devpi.acsc.internal/azul/stable/+f/c39/5767f902cf843/azul_nsrl_lookup_server-13.0.29-py3-none-any.whl", hash = "sha256:c395767f902cf843a02f5447e54c26d51d8c8aa4624e933d36fff8a527b9079c" },
+    { url = "https://devpi.acsc.internal/azul/stable/+f/99d/51cffbb4ea72f/azul_nsrl_lookup_server-13.0.31-py3-none-any.whl", hash = "sha256:99d51cffbb4ea72f599ec15bfd32f39bbffb9aa3daaba5fb24d8a2d90d5f2123" },
 ]
 
 [[package]]
