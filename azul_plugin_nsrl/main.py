@@ -66,9 +66,9 @@ class AzulPluginNsrl(Plugin):
         digest = job.event.entity.sha256
 
         action = "exists"
-        if self.cfg.details is True:  # ty: ignore[unresolved-attribute] ty doesn't understand add_settings
+        if self.cfg.details is True:  # ty: ignore[missing-attribute] ty doesn't understand add_settings
             action = "details"
-        url = f"{self.cfg.uri}/{action}/{digest}"  # ty: ignore[unresolved-attribute] ty doesn't understand add_settings
+        url = f"{self.cfg.uri}/{action}/{digest}"  # ty: ignore[missing-attribute] ty doesn't understand add_settings
         try:
             r = httpx.get(url, follow_redirects=True, timeout=30.0)
         except httpx.TransportError as e:
@@ -79,7 +79,7 @@ class AzulPluginNsrl(Plugin):
             raise
         if r.status_code == 200:
             self.add_feature_values("tag", "NSRL")
-            if self.cfg.details is False:  # ty: ignore[unresolved-attribute] ty doesn't understand add_settings
+            if self.cfg.details is False:  # ty: ignore[missing-attribute] ty doesn't understand add_settings
                 return
         elif r.status_code == 404:
             return
@@ -109,10 +109,10 @@ class AzulPluginNsrl(Plugin):
 
         self.add_feature_values("nsrl_package_hits", len(packages))
 
-        if str(self.cfg.max_details).isdigit():  # ty: ignore[unresolved-attribute] ty doesn't understand add_settings
-            max_details = int(self.cfg.max_details)  # ty: ignore[unresolved-attribute] ty doesn't understand add_settings
+        if str(self.cfg.max_details).isdigit():  # ty: ignore[missing-attribute] ty doesn't understand add_settings
+            max_details = int(self.cfg.max_details)  # ty: ignore[missing-attribute] ty doesn't understand add_settings
         else:
-            raise Exception(f"Configuration exception {self.cfg.max_details} must be an integer value.")  # ty: ignore[unresolved-attribute] ty doesn't understand add_settings
+            raise Exception(f"Configuration exception {self.cfg.max_details} must be an integer value.")  # ty: ignore[missing-attribute] ty doesn't understand add_settings
 
         pkg_features = {}
         seen_app_types = set()
